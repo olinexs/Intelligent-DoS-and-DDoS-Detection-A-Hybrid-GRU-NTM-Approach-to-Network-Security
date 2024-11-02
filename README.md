@@ -17,21 +17,31 @@ This repository contains the code for the research paper titled "Intelligent DoS
 To install the dependencies, you can use:
 
 ```bash
-pip install -r requirements.txt```
-
-
+pip install -r requirements.txt
+```
 
 ## Getting Started
 Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/repository-name.git```
+git clone https://github.com/olinexs/Intelligent-DoS-and-DDoS-Detection-A-Hybrid-GRU-NTM-Approach-to-Network-Security.git
+```
 
-Navigate to the directory:
-```bash
-cd repository-name
+## Project Structure
+- code.ipynb: Contains the full implementation of the hybrid GRU-NTM model for DoS and DDoS detection.
+- data/ (optional): Folder for datasets or a link to download them if needed.
+- requirements.txt: List of libraries required to run the notebook.
 
-Run the Notebook: Open the Fix.ipynb notebook in Jupyter and execute the cells sequentially. Instructions and comments in the notebook provide additional details on each step.
-Project Structure
-Fix.ipynb: Contains the full implementation of the hybrid GRU-NTM model for DoS and DDoS detection.
-data/ (optional): Folder for datasets or a link to download them if needed.
-requirements
+## Data Collection and Preprocessing
+This model uses the following datasets:
+- UNSW Normal Traffic Dataset: Includes typical network traffic data.
+- BoT-IoT DoS Dataset: Contains data from simulated DoS attacks in an IoT environment.
+- BoT-IoT DDoS Dataset: Contains data from simulated DDoS attacks.
+Each dataset undergoes data balancing, normalization, and encoding, as outlined in the notebook
+
+## Model Architecture
+The model consists of:
+
+* GRU Layers: For processing sequential data and short-term dependencies.
+* Neural Turing Machine (NTM): Provides long-term memory and enables the model to reference past information, crucial for complex pattern detection.
+* Dense Layers: For further feature abstraction.
+* Output Layer: SoftMax layer with three classes (Normal, DoS, DDoS).
