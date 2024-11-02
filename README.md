@@ -17,12 +17,14 @@ This repository contains the code for the research paper titled "Intelligent DoS
 To install the dependencies, you can use:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
+
+
 
 ## Getting Started
 Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/repository-name.git
+git clone https://github.com/yourusername/repository-name.git```
 
 Navigate to the directory:
 ```bash
