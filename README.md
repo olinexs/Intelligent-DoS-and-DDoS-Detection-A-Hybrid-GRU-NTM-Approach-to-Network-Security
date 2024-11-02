@@ -1,7 +1,7 @@
 # Intelligent-DoS-and-DDoS-Detection-A-Hybrid-GRU-NTM-Approach-to-Network-Security
 
 **Author:** Caroline Panggabean; Chandrasekar Venkatachalam; Priyanka Shah; Sincy John; P Renuka Devi; Shanmugavalli Venkatachalam  
-**Published in:** [2024 5th International Conference on Smart Electronics and Communication (ICOSEC), 2024]  
+**Published in:** 5th International Conference on Smart Electronics and Communication (ICOSEC), 2024
 **Link to Paper:** https://ieeexplore.ieee.org/document/10722438
 
 ---
