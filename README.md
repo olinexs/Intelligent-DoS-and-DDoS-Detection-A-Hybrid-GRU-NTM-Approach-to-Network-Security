@@ -27,8 +27,7 @@ git clone https://github.com/olinexs/Intelligent-DoS-and-DDoS-Detection-A-Hybrid
 ```
 
 ## Project Structure
-- code.ipynb: Contains the full implementation of the hybrid GRU-NTM model for DoS and DDoS detection.
-- data/ (optional): Folder for datasets or a link to download them if needed.
+- detection.ipynb: Contains the full implementation of the hybrid GRU-NTM model for DoS and DDoS detection. (JSON)
 - requirements.txt: List of libraries required to run the notebook.
 
 ## Data Collection and Preprocessing
